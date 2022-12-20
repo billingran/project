@@ -88,12 +88,10 @@ li.iForm {
   text-align: center;
   padding: 10px 30px;
   font-style: initial;
-  white-space: nowrap;
   cursor: pointer;
   border-width: 1px;
   border-color: #27c7ce !important;
   background-color: transparent !important;
-  background-image: none;
   border-style: solid;
   margin: 30px auto 60px;
 }
@@ -151,11 +149,9 @@ li.iForm {
   text-align: center;
   padding: 10px 30px;
   font-style: initial;
-  white-space: nowrap;
   cursor: pointer;
   border-width: 1px;
   background-color: #27c7ce !important;
-  background-image: none;
   border-style: solid;
   margin: 30px auto 60px;
   border-radius: 22px;
@@ -213,11 +209,9 @@ li.iForm {
   text-align: center;
   padding: 10px 30px;
   font-style: initial;
-  white-space: nowrap;
   cursor: pointer;
   border-width: 1px;
   background-color: #e6e6e6 !important;
-  background-image: none;
   border-style: solid;
   /* margin: 30px auto 60px; */
   border-radius: 22px;
@@ -268,10 +262,8 @@ li.iForm {
   text-align: center;
   padding: 10px 30px;
   font-style: initial;
-  white-space: nowrap;
   cursor: pointer;
   border-width: 1px;
-  background-image: none;
   border-style: solid;
   /* margin: 30px auto 60px; */
   color: #ffffff !important;
