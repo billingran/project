@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&family=Montserrat:ital@1&family=Noto+Sans+Lao+Looped:wght@300;400&family=Overpass:wght@200&family=Parisienne&family=Playfair+Display:wght@500;700&family=Raleway:wght@100;200;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.menu{
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu span{
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px;
+}
+#header i{
+    width: 30px;
+    height: 10px;
+}
+
+/*________________SECTION-1___________________________*/
+
+#section-1 img{
+    width: 100%;
+}
+#section-1 .we-help{
+    width: 45%;
+    padding: 30px;
+    background-color: beige;
+}
+#section-1 .we-help h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+#section-1 .we-help span{
+    color: #38d2d9;;
+}
+
