@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300&family=Montserrat:ital@1&family=Noto+Sans+Lao+Looped:wght@300;400&family=Overpass:wght@200&family=Parisienne&family=Playfair+Display:wght@500;700&family=Raleway:wght@100;200;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap%27");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .partOne {
@@ -11,7 +14,6 @@
 }
 
 .partOnetitle {
-  font-family: Montserrat, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   font-size: 2.25rem;
@@ -19,7 +21,6 @@
 }
 
 .partOneLittleTitle {
-  font-family: sans-serif;
   color: #808080 !important;
   margin: 30px auto 0;
 }
@@ -31,7 +32,7 @@
 }
 
 .colorRond {
-  background-color: aqua;
+  background-color: #27c7ce;
   border-radius: 50px;
   height: 88px;
   width: 88px;
@@ -43,11 +44,6 @@
 }
 
 .middleFormOne {
-  /* display: flex; */
-}
-
-.middleFormTwo {
-  /* display: flex; */
 }
 
 .uForm {
@@ -55,7 +51,7 @@
   flex-wrap: wrap;
   list-style-type: none;
   font-family: sans-serif;
-  border: solid aqua 3px;
+  /* border: solid aqua 3px; */
 }
 
 li.iForm {
@@ -63,9 +59,9 @@ li.iForm {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 30px 10px;
-  flex: 1 1 350px;
+  flex: 1 1 300px;
 }
 
 .hForm {
@@ -73,12 +69,10 @@ li.iForm {
   margin: 35px 0 0;
   line-height: 1.2;
   font-size: 1.25rem;
-  font-family: Montserrat, sans-serif;
   color: inherit;
 }
 
 .pForm {
-  font-family: "Open Sans", sans-serif;
   color: #808080 !important;
   font-weight: 400;
   line-height: 1.6;
@@ -91,7 +85,6 @@ li.iForm {
   letter-spacing: 2px;
   font-size: 0.875rem;
   line-height: 1.4;
-  text-transform: uppercase;
   text-align: center;
   padding: 10px 30px;
   font-style: initial;
@@ -100,4 +93,230 @@ li.iForm {
   border-width: 1px;
   border-color: #27c7ce !important;
   background-color: transparent !important;
+  background-image: none;
+  border-style: solid;
+  margin: 30px auto 60px;
+}
+
+.frameTop {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.insideWidth {
+  width: 70%;
+}
+
+.wordLeft {
+  width: 50%;
+  flex: 1 1 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 64px;
+  padding-right: 37px;
+  text-align: left;
+}
+
+.partTwotitle {
+  font-size: 2.25rem;
+  margin: 65px 0 0;
+}
+
+.partTwolittletitle {
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 40px 0 0;
+}
+
+.picright {
+  width: 50%;
+  flex: 1 1 540px;
+}
+
+.lastPic {
+  width: 100%;
+  height: 100%;
+}
+
+.secondBottomButton {
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+  padding: 10px 30px;
+  font-style: initial;
+  white-space: nowrap;
+  cursor: pointer;
+  border-width: 1px;
+  background-color: #27c7ce !important;
+  background-image: none;
+  border-style: solid;
+  margin: 30px auto 60px;
+  border-radius: 22px;
+  color: white;
+}
+
+.frameBottom {
+  background-color: #27c7ce;
+  padding: 50px;
+}
+
+.trand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.thirdcover {
+  /* border: solid 3px red; */
+  flex: 1 1 160px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.phraseLeft {
+  /* border: solid 3px black; */
+  flex: 1 1 400px;
+}
+
+.partTwotitlehthree {
+  margin: 15px 0 0;
+  color: #ffffff !important;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.875rem;
+  text-align: left;
+}
+
+.partTwolittletitletwo {
+  margin: 20px 0 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #ffffff !important;
+  text-align: left;
+}
+
+.thirdBottomButton {
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+  padding: 10px 30px;
+  font-style: initial;
+  white-space: nowrap;
+  cursor: pointer;
+  border-width: 1px;
+  background-color: #e6e6e6 !important;
+  background-image: none;
+  border-style: solid;
+  /* margin: 30px auto 60px; */
+  border-radius: 22px;
+  color: #27c7ce;
+}
+
+@media screen and (max-width: 800px) {
+  .thirdcover {
+    justify-content: start;
+  }
+}
+
+.partThree {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.thirdTitle {
+  margin: 58px auto 0;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 2.25rem;
+  /* font-family: Montserrat, sans-serif; */
+}
+
+.thirdLittletitle {
+  margin: 20px auto 0;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.whiteSpace {
+  height: 300px;
+}
+
+@media screen and (max-width: 1199px) {
+  .whiteSpace {
+    height: 236px;
+  }
+}
+
+.thirdthButton {
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+  padding: 10px 30px;
+  font-style: initial;
+  white-space: nowrap;
+  cursor: pointer;
+  border-width: 1px;
+  background-image: none;
+  border-style: solid;
+  /* margin: 30px auto 60px; */
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  margin: 30px auto 60px;
+  padding: 10px 30px;
+}
+
+.end {
+  color: #ffffff;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  height: 133px;
+}
+
+.endBag {
+  padding-left: 38px;
+  padding-right: 38px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endLittleTitle {
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97.6px;
+  text-align: center;
+  padding: 1em;
+  color: #ffffff;
+  background-color: #333333;
+  font-size: 0.8rem;
+}
+
+.onlyColor {
+  color: #27c7ce;
 }
