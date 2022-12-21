@@ -43,9 +43,6 @@
   flex-direction: column;
 }
 
-.middleFormOne {
-}
-
 .uForm {
   display: flex;
   flex-wrap: wrap;
@@ -218,12 +215,6 @@ li.iForm {
   color: #27c7ce;
 }
 
-@media screen and (max-width: 800px) {
-  .thirdcover {
-    justify-content: start;
-  }
-}
-
 .partThree {
   width: 80%;
   margin: 0 auto;
@@ -247,12 +238,6 @@ li.iForm {
 
 .whiteSpace {
   height: 300px;
-}
-
-@media screen and (max-width: 1199px) {
-  .whiteSpace {
-    height: 236px;
-  }
 }
 
 .thirdthButton {
@@ -283,7 +268,7 @@ li.iForm {
 .endBag {
   padding-left: 38px;
   padding-right: 38px;
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,7 +280,7 @@ li.iForm {
   font-weight: 400;
   line-height: 1.6;
   font-size: 0.875rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .final {
@@ -309,12 +294,54 @@ li.iForm {
   background-color: #333333;
   font-size: 0.8rem;
 }
+
+.onlyColor {
+  color: #27c7ce;
+}
+
+@media screen and (max-width: 500px) {
+  .insideWidth {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .partTwotitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .frameBottom,
+  .wordLeft {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .partTwotitlehthree,
+  .partTwolittletitletwo {
+    text-align: center;
+  }
+  .thirdBottomButton {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .thirdcover {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .whiteSpace {
+    height: 236px;
+  }
+}
+
 @media screen and (max-width: 250px) {
   .final {
     flex-direction: column;
   }
-}
-
-.onlyColor {
-  color: #27c7ce;
 }
