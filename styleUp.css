@@ -25,26 +25,233 @@
     height: 3px;
     margin: 2px 0px;
 }
-#header i{
-    width: 30px;
-    height: 10px;
+.pages{
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    width: 200px;
+    height: 650px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    left: -200px;
+    transition: 1s;
+}
+.pages i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+.pages ul{
+    margin-top: 70px;
+}
+.pages ul li{
+    margin-bottom: 20px;
+    list-style: none;
+    font-weight: bold;
 }
 
 /*________________SECTION-1___________________________*/
 
-#section-1 img{
-    width: 100%;
+#section-1{
+   background-image: url("images/photo1.jpg");
+   background-size: cover;
+   background-position: right;
+   height: 750px;
 }
 #section-1 .we-help{
-    width: 45%;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 380px;
+    height: 75vh;
     padding: 30px;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0.801);
 }
-#section-1 .we-help h2{
-    font-size: 2.25rem;
-    font-weight: 700;
+#section-1 .we-help h1{
+    font-size: 50px;
+    font-weight: bold;
 }
 #section-1 .we-help span{
     color: #38d2d9;;
 }
+#section-1 .we-help p{
+    margin-bottom: 10px;
+}
+#section-1 .we-help a{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 25px;
+}
 
+/*__________________SECTION-2_____________________*/
+
+#section-2{
+    display: flex;
+    text-align: center;
+}
+#section-2 h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#section-2 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    color: white;
+}
+#section-2 .box-1{
+    background-color: black;
+}
+#section-2 .box-2{
+    background-color: #38d2d9;
+}
+#section-2 .box-3{
+    background-color: #14b8bf;
+}
+
+/*____________________SECTION-3_____________*/
+
+#section-3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+}
+.about{
+    width: 50%;
+    margin-top: 50px;
+}
+#section-3 .about h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+#section-3 .about p{
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+#section-3 .about a{
+    border: 1px solid gray;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 25px;
+}
+#section-3 .about a:hover{
+    border: 2px solid rgb(107, 107, 107);
+}
+
+/* ________________SECTION4_______________________ */
+
+#section-4 img{
+    width: 50%;
+}
+#section-4 {
+    display: flex;
+    margin-top: 50px;
+}
+#section-4 .right{
+    background-color: #38d2d9;
+    color: white;
+    padding: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section-4 .right h2, .p{
+  margin-bottom: 20px;
+}
+#section-4 .right .p{
+    font-weight: bolder;
+}
+#section-4 .right h2{
+    font-size: 40px;
+}
+#section-4 .right a{
+    margin-top: 20px;
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #38d2d9;
+}
+
+@media screen and (max-width: 992px){
+
+    #section-1 .we-help{
+        position: absolute;
+        top: 280px;
+        left: 15px;
+        width: 230px;
+        height: 65vh;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.712);
+    }
+    #section-1 .we-help h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 770px){
+    #section-1 .we-help{
+        position: absolute;
+        top: 490px;
+        left: 100px;
+        width: 450px;
+        height: 52vh;
+        padding: 23px;
+        background-color: rgba(255, 255, 255, 0.712);
+    }
+    #section-1 .we-help h1{
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #section-1 .we-help p{
+        text-align: center;
+    }
+    #section-1 .we-help .btn{
+        display: flex;
+        justify-content: center;
+    }
+/* ___________SECTION2____________________ */
+
+    #section-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ________SECTION4__________________ */
+
+    #section-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    #section-4 img{
+        width: 100%;
+    }
+    #section-4 .right{
+        width: 100%;
+    }
+    #section-4 .right h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #section-1 .we-help{
+        position: absolute;
+        top: 490px;
+        left: 100px;
+        width: 320px;
+        height: 52vh;
+        padding: 23px;
+        background-color: rgba(255, 255, 255, 0.712);
+    }
+}
