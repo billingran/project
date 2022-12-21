@@ -102,13 +102,17 @@
       var menu = document.querySelector(".menu")
       var open = document.querySelector(".pages")
       var close = document.querySelector(".fa-circle-xmark")
+      var over = document.querySelector("body")
 
       menu.addEventListener("click", () =>{
         open.style.left="0px"
+        over.style.overflow="hidden"
       })
       close.addEventListener("click", () =>{
         open.style.left="-200px"
+        over.style.overflow="unset"
       })
+      
     </script>
   </body>
 </html>
